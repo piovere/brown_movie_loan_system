@@ -1,5 +1,6 @@
 # Brown College Moovie Loan System
 ### A re-creation of the original, horrible, awesome, amazing PHP version
+![Alt text](crappy_original_php_version_from_2003/how.jpg?raw=true "the cow let people know we were serious")
 
 A long time ago, in a galaxy far, far away...
 
