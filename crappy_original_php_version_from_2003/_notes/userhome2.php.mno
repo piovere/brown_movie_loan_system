@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="iso-8859-1" ?><info>	<infoitem key="UD_usermovies" value="name:owner;datatype:int,name:holder;datatype:int,name:title;datatype:string,name:year;datatype:int,name:genre1;datatype:string,name:genre2;datatype:string,name:link;datatype:blob,name:format;datatype:string" /></info>

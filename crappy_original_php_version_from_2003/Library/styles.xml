@@ -1,0 +1,2 @@
+<mm:style name="moovies" align="right" apply="replace" font="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF" bold />
+<mm:style name="moovies header" align="center" apply="replace" font="Verdana, Arial, Helvetica, sans-serif" size="6" color="#FFFFFF" />
