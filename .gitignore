@@ -5,3 +5,4 @@ doc/
 .Python
 pip-selfcheck.json
 *.pyc
+db.sqlite3
