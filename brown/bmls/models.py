@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class Person(models.Model):
 	first_name = models.CharField(max_length=200)
-	last_name = models.CharField(max_lenth=200)
+	last_name = models.CharField(max_length=200)
 	room = models.CharField(max_length=5)
 	
 	# Enumerating the portals
