@@ -50,7 +50,7 @@ class Video(models.Model):
 	format = models.ForeignKey('Format')
 
 class Genre(models.Model):
-	genre = models.URLfield()
+	genre = models.URLField()
 
 class Format(models.Model):
 	format = models.CharField(max_length=100)
