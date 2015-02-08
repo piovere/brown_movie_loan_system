@@ -45,18 +45,17 @@ class Video(models.Model):
 	title = models.CharField(max_length=200)
 	year = models.PositiveSmallIntegerField()
 	link = models.PositiveIntegerField()
-	genre = models.ManyToManyField('Genres')
+	genre = models.ManyToManyField('Genre')
 	owner = models.ForeignKey(Person)
-	format = models.ForeignKey('Formats')
+	format = models.ForeignKey('Format')
 
-class Genres(models.Model):
+class Genre(models.Model):
 	genre = models.URLfield()
 
-class Formats(models.Model):
+class Format(models.Model):
 	format = models.CharField(max_length=100)
 
 class Checkout(models.Model):
 	video = models.ForeignKey(Video)
 	owner = models.ForeignKey(Person)
 	holder = models.ForeignKey(Person)
-	
