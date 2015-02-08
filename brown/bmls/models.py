@@ -57,5 +57,5 @@ class Format(models.Model):
 
 class Checkout(models.Model):
 	video = models.ForeignKey(Video)
-	owner = models.ForeignKey(Person)
 	holder = models.ForeignKey(Person)
+	date = models.DateTimeField(auto_now_add=True)
