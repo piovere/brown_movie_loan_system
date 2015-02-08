@@ -41,6 +41,10 @@ class Person(models.Model):
 	email = models.EmailField(unique=True)
 	comments = models.TextField()
 
+	def __unicode__(self):
+		return "{0} {1}".format(self.first_name, self.last_name)
+
+
 class Video(models.Model):
 	title = models.CharField(max_length=200)
 	year = models.PositiveSmallIntegerField()
@@ -48,6 +52,9 @@ class Video(models.Model):
 	genre = models.ManyToManyField('Genre')
 	owner = models.ForeignKey(Person)
 	format = models.ForeignKey('Format')
+
+	def __unicode__(self):
+		return "{0} ({1})".format(self.title, self.year)
 
 class Genre(models.Model):
 	genre = models.URLField()
