@@ -6,3 +6,4 @@ doc/
 pip-selfcheck.json
 *.pyc
 db.sqlite3
+hello_world.py
